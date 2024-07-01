@@ -1,3 +1,4 @@
+# notes/urls.py
 from django.urls import path
 
 from notes import views
