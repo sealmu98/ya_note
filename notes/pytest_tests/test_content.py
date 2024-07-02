@@ -1,7 +1,7 @@
 # test_content.py
 import pytest
-
 from django.urls import reverse
+
 # Импортируем класс формы.
 from notes.forms import NoteForm
 

@@ -1,6 +1,5 @@
 # conftest.py
 import pytest
-
 # Импортируем класс клиента.
 from django.test.client import Client
 

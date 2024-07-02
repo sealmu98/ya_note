@@ -1,11 +1,13 @@
 import unittest
-from django.test import TestCase, Client
-from django.urls import reverse
-from notes.models import Note
-from notes.forms import WARNING
-from pytils.translit import slugify
 from http import HTTPStatus
+
 from django.contrib.auth import get_user_model
+from django.test import Client, TestCase
+from django.urls import reverse
+from pytils.translit import slugify
+
+from notes.forms import WARNING
+from notes.models import Note
 
 User = get_user_model()
 
